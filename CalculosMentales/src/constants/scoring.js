@@ -1,5 +1,5 @@
-import { modes } from "./modes";
-import { points } from "./logic/points";
+import { modes } from "../logic/modes";
+import { points } from "../logic/points";
 
 const calculatePoints = (timeUsed,timeLimit,isCorrect) => {
     if(!isCorrect && timeUsed > timeLimit){
